@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8524C903-4F32-2E84-5678-2DAEA7580D43}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CharacterBoost",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
