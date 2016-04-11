@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 1,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Booster",
+	"Description" : "Plugin for 3D games that adds cool functionality",
+	"Category" : "Other",
+	"CreatedBy" : "Pavel Dimitrov",
+	"CreatedByURL" : "http://epicgames.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "Booster",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
