@@ -3,14 +3,14 @@
 #include "BoosterPrivatePCH.h"
 
 
-class FBoosterModule : public IBoosterModule
+class BOOSTER_API FBoosterModule : public IBoosterModule
 {
 	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 };
 
-IMPLEMENT_MODULE( FBoosterModule, Booster )
+
 
 
 
@@ -26,4 +26,4 @@ void FBoosterModule::ShutdownModule()
 	// we call this function before unloading the module.
 }
 
-
+IMPLEMENT_MODULE(FBoosterModule, Booster)
